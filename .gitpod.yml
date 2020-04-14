@@ -1,0 +1,12 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - command: bundle install
+# Setup for grading, ignore
+  # - command: bundle install && rake db:migrate && rake db:seed && rake db:test:prepare && cucumber && rspec
+
+vscode:
+  extensions:
+    - alexkrechik.cucumberautocomplete@2.14.1:J/ljPrPn1S+KgN2xeXFE9A==  
+    - vayan.haml@1.0.1:6B6FSK2WBP2+DkvrUSTz4g==
