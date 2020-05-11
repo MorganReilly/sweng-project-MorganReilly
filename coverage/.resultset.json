@@ -1,0 +1,91 @@
+{
+  "Cucumber Features": {
+    "coverage": {
+      "/workspace/sweng-project-MorganReilly/app/helpers/application_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/workspace/sweng-project-MorganReilly/app/models/produce.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/workspace/sweng-project-MorganReilly/app/controllers/produce_controller.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/workspace/sweng-project-MorganReilly/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1589229652
+  }
+}
