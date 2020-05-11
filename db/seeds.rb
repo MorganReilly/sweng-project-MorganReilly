@@ -6,10 +6,10 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-produce = [{:code => '0001 ', :description => 'Bananas', :quantity => '40', :next_delivery => '12-May-2020'},
-    	{:code => '0002 ', :description => 'Grapes', :quantity => '30', :next_delivery => '11-May-2020'},
-    	{:code => '0003 ', :description => 'Potatoes', :quantity => '100', :next_delivery => '13-May-2020'},
-      	{:code => '0004 ', :description => 'Celeriac', :quantity => '0', :next_delivery => '20-May-2020'},
+produce = [{:product_name => 'Bananas', :quantity => '40', :next_delivery => '12-May-2020'},
+    	{:product_name => 'Grapes', :quantity => '30', :next_delivery => '11-May-2020'},
+    	{:product_name => 'Potatoes', :quantity => '100', :next_delivery => '13-May-2020'},
+      	{:product_name => 'Celeriac', :quantity => '0', :next_delivery => '20-May-2020'},
   	 ]
 
 produce.each do |produce|
