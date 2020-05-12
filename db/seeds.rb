@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-item = [
+stock = [
         {:des => 'Bananas (Bunch 1Kg)', :qty => '20', :dep => 'FV' ,:del => '12-May-2020'},
         {:des => 'Organic Apples 500g', :qty => '40', :dep => 'FV' ,:del => '13-May-2020'},
         {:des => 'Orange Net 1Kg', :qty => '50', :dep => 'FV' ,:del => '12-May-2020'},
@@ -24,6 +24,6 @@ item = [
         {:des => 'Pork Loin 1Kg', :qty => '1', :dep => 'MT' ,:del => '12-May-2020'},
   	 ]
 
-produce.each do |produce|
-#   Produce.create!(produce)
+stock.each do |stock|
+  Stock.create!(stock)
 end
